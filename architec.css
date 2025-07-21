@@ -6,6 +6,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 /* shared styles */
@@ -149,7 +150,7 @@ main > section{
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: -100px;
-    margin-top: -100px;
+    margin-top: -100px; 
 }
 
 #experience-year{
@@ -199,11 +200,15 @@ main > section{
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
+    
 }
 
 .sponsor-companies{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    justify-content: space-between;
+    gap: 100px;
+    display: flex;
 }
 
 .sponsor-companies img{
@@ -212,13 +217,42 @@ main > section{
 .footer{
     background-color: antiquewhite;
     justify-content: center;
-    height: 50px;
+    height: 150px;
+    
     border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    
 }
+.footer p{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer a{
+    color: palevioletred;
+    padding-bottom: 10px;
+      position: relative;
+  top: -10px; 
+}
+.hmm a{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 20px;
+    width: 20px;
+    padding-left: 700px;
+    padding-bottom: 300px;
+
+}
+
+
+
 .font-size{
     font-size: 14px;
     text-align: center;
    font-weight: 300;
+   
 }
 .button:hover{
     color: red;
